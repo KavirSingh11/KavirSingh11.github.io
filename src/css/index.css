@@ -59,7 +59,22 @@ a:hover {
 
 #container {
 	background-color: rgba(0, 0, 0, 0.5);
+	animation-name: moveInBottom;
+	animation-duration: 1.5s;
+	animation-timing-function: ease-in;
 }
+@keyframes moveInBottom {
+	0% {
+		opacity: 0;
+		transform: translateY(5rem);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translate(0);
+	}
+}
+
 #carousel {
 	grid-area: carousel;
 	display: flex;
