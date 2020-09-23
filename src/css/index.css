@@ -105,9 +105,13 @@ a:hover {
 	padding: 2rem;
 }
 
+.proj-link {
+	float: right;
+}
 .resume {
 }
 .tiles {
+	margin-top: 2rem;
 }
 .tile-container {
 	display: inline-block;
@@ -130,4 +134,38 @@ a:hover {
 	width: 7rem;
 	height: 7rem;
 	transition: all 0.5s;
+}
+
+@media (max-width: 400px) {
+	#container {
+		display: flex;
+		flex-direction: column;
+		height: fit-content;
+		margin-bottom: 5rem;
+	}
+	.proj-link {
+		display: inline-block;
+		float: none;
+	}
+	.divider {
+		display: none;
+	}
+}
+
+@media (max-width: 800px) {
+	.page-content {
+		padding: none;
+	}
+	.tile-container {
+		width: 4rem;
+		height: 4rem;
+	}
+	.tile {
+		width: 3rem;
+		height: 3rem;
+	}
+
+	.tile-container:hover .tile {
+		transform: none;
+	}
 }
