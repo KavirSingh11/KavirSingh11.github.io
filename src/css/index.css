@@ -153,6 +153,7 @@ a:hover {
 
 @media (max-width: 600px) {
 	#container {
+		width: 100vw;
 		display: flex;
 		flex-direction: column;
 		height: fit-content;
