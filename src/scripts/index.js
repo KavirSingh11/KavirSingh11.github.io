@@ -6,25 +6,6 @@ console.log(pageWidth);
 var pageIndex = 1;
 var translateX = 0;
 
-// carouselButtons.forEach((button) => {
-// 	button.addEventListener("click", (event) => {
-// 		if (event.target.id === "prev") {
-// 			if (pageIndex !== 1) {
-// 				pageIndex--;
-// 				translateX += pageWidth;
-// 				console.log("forward");
-// 			}
-// 		} else {
-// 			if (pageIndex !== pageCount) {
-// 				pageIndex++;
-// 				translateX -= pageWidth;
-// 				console.log("backward");
-// 			}
-// 		}
-
-// 		carouselPages.style.transform = `translateX(${translateX}px)`;
-// 	});
-// });
 console.log(pageCount);
 carouselButtons.forEach((button) => {
 	button.addEventListener("click", (event) => {
