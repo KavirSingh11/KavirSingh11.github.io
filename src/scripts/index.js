@@ -2,7 +2,6 @@ var carouselPages = document.querySelector(".carousel-pages");
 var carouselButtons = document.querySelectorAll(".carousel-button");
 var pageCount = document.querySelectorAll(".carousel-page").length;
 var pageWidth = document.querySelector(".carousel-pages").clientWidth;
-console.log(pageWidth);
 var pageIndex = 1;
 var translateX = 0;
 
